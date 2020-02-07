@@ -1,8 +1,5 @@
 name: Push Docker images to GitHub
-on:
-  push:
-    tags:
-      - v*
+on: push
 jobs:
   test:
     runs-on: ubuntu-latest
